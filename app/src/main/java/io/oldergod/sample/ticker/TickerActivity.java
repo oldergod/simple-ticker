@@ -13,6 +13,7 @@ import io.oldergod.sample.ticker.databinding.ActivityTickerBinding;
 
 public class TickerActivity extends AppCompatActivity {
     private static final String TAG = "TickerActivity";
+    private static final String COUNTER_KEY = "COUNTER_KEY";
 
     ActivityTickerBinding binding;
     private Counter counter;
@@ -20,7 +21,11 @@ public class TickerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        counter = new Counter();
+        if (savedInstanceState == null) {
+            counter = new Counter();
+        } else {
+            counter = new Counter(savedInstanceState.getInt(COUNTER_KEY, 0));
+        }
         binding = DataBindingUtil.setContentView(this, R.layout.activity_ticker);
         binding.setCounter(counter);
         binding.setHandler(this);
@@ -44,5 +49,11 @@ public class TickerActivity extends AppCompatActivity {
     public void onGotoSaveSelected(MenuItem item) {
         Intent intent = new Intent(this, SaveActivity.class);
         startActivity(intent);
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt(COUNTER_KEY, Integer.valueOf(counter.getCount()));
     }
 }
