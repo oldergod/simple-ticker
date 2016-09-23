@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ticker</string>
+    <string name="ticker_label">クリック数</string>
+    <string name="ticker_count_default">0</string>
+    <string name="ticker_add_button">カウント増加</string>
+    <string name="save_button_message">保存する</string>
+    <string name="ticket_menu_reset">リセット</string>
+    <string name="ticket_menu_goto_save">保存へ</string>
+</resources>
