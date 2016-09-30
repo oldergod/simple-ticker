@@ -18,6 +18,10 @@
         <activity
             android:name=".SaveActivity"
             android:parentActivityName=".TickerActivity" />
+        <activity
+            android:name=".TransparentActivity"
+            android:theme="@style/MyTransparentActivity"
+            android:parentActivityName=".TickerActivity" />
     </application>
 
 </manifest>

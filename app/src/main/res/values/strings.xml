@@ -6,4 +6,6 @@
     <string name="save_button_message">保存する</string>
     <string name="ticket_menu_reset">リセット</string>
     <string name="ticket_menu_goto_save">保存へ</string>
+    <string name="profile_name_input_hint">ファイル名</string>
+    <string name="ticket_menu_goto_transparent_save">透明へ</string>
 </resources>

@@ -14,8 +14,8 @@ public class Counter extends BaseObservable {
     }
 
     @Bindable
-    public String getCount() {
-        return String.valueOf(count);
+    public int getCount() {
+        return count;
     }
 
     void incrementeByOne() {

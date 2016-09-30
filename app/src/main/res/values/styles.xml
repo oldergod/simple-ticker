@@ -8,4 +8,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="MyTransparentActivity" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:windowBackground">@drawable/transparent_bg</item>
+    </style>
 </resources>

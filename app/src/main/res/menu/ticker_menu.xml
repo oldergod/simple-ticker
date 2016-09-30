@@ -13,4 +13,10 @@
         android:orderInCategory="100"
         android:title="@string/ticket_menu_goto_save"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_goto_transparent"
+        android:onClick="onGotoTransparentSelected"
+        android:orderInCategory="100"
+        android:title="@string/ticket_menu_goto_transparent_save"
+        app:showAsAction="never" />
 </menu>

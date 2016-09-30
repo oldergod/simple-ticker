@@ -51,9 +51,14 @@ public class TickerActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onGotoTransparentSelected(MenuItem item) {
+        Intent intent = new Intent(this, TransparentActivity.class);
+        startActivity(intent);
+    }
+
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putInt(COUNTER_KEY, Integer.valueOf(counter.getCount()));
+        outState.putInt(COUNTER_KEY, counter.getCount());
     }
 }
