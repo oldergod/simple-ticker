@@ -7,11 +7,11 @@
 
         <variable
             name="counter"
-            type="io.oldergod.sample.ticker.Counter" />
+            type="io.oldering.sample.ticker.Counter" />
 
         <variable
             name="handler"
-            type="io.oldergod.sample.ticker.TickerActivity" />
+            type="io.oldering.sample.ticker.TickerActivity" />
     </data>
 
     <android.support.constraint.ConstraintLayout

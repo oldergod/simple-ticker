@@ -6,11 +6,11 @@
 
         <variable
             name="profile"
-            type="io.oldergod.sample.ticker.Profile" />
+            type="io.oldering.sample.ticker.Profile" />
 
         <variable
             name="handler"
-            type="io.oldergod.sample.ticker.SaveActivity" />
+            type="io.oldering.sample.ticker.SaveActivity" />
     </data>
 
     <android.support.constraint.ConstraintLayout

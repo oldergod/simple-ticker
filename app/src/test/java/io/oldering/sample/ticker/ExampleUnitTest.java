@@ -1,4 +1,4 @@
-package io.oldergod.sample.ticker;
+package io.oldering.sample.ticker;
 
 import org.junit.Test;
 

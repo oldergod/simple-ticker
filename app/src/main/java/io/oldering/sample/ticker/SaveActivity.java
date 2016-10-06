@@ -1,4 +1,4 @@
-package io.oldergod.sample.ticker;
+package io.oldering.sample.ticker;
 
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-import io.oldergod.sample.ticker.databinding.ActivitySaveBinding;
+import io.oldering.sample.ticker.databinding.ActivitySaveBinding;
 
 public class SaveActivity extends AppCompatActivity {
     ActivitySaveBinding binding;

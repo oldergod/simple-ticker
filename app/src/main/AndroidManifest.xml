@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.oldergod.sample.ticker">
+    package="io.oldering.sample.ticker">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".TickerActivity">
+        <activity android:name="io.oldering.sample.ticker.TickerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -16,12 +16,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SaveActivity"
-            android:parentActivityName=".TickerActivity" />
+            android:name="io.oldering.sample.ticker.SaveActivity"
+            android:parentActivityName="io.oldering.sample.ticker.TickerActivity" />
         <activity
-            android:name=".TransparentActivity"
+            android:name="io.oldering.sample.ticker.TransparentActivity"
             android:theme="@style/MyTransparentActivity"
-            android:parentActivityName=".TickerActivity" />
+            android:parentActivityName="io.oldering.sample.ticker.TickerActivity" />
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package io.oldergod.sample.ticker;
+package io.oldering.sample.ticker;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
@@ -9,7 +9,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 
-import io.oldergod.sample.ticker.databinding.ActivityTickerBinding;
+import io.oldering.sample.ticker.databinding.ActivityTickerBinding;
 
 public class TickerActivity extends AppCompatActivity {
     private static final String TAG = "TickerActivity";
